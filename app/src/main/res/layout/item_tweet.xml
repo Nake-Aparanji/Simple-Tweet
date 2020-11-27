@@ -11,6 +11,8 @@
         android:layout_height="50dp"
         android:layout_marginStart="0dp"
         android:layout_marginTop="0dp"
+        android:paddingBottom="2dp"
+        android:paddingTop="2dp"
         tools:srcCompat="@tools:sample/avatars" />
 
     <TextView
@@ -20,7 +22,10 @@
         android:layout_marginStart="5dp"
         android:layout_marginTop="0dp"
         android:layout_toEndOf="@+id/ivProfileImage"
+        android:paddingTop="2dp"
         android:text="TextView"
+        android:textColor="#000000"
+        android:textSize="18sp"
         tools:text="rpandey123" />
 
     <TextView
@@ -31,6 +36,8 @@
         android:layout_marginStart="5dp"
         android:layout_marginTop="2dp"
         android:layout_toEndOf="@+id/ivProfileImage"
+        android:paddingBottom="2dp"
         android:text="TextView"
+        android:textSize="16dp"
         tools:text="This is my tweet" />
 </RelativeLayout>
